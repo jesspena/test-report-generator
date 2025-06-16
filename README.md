@@ -15,7 +15,7 @@ dotnet run --project TestReportGenerator test_results.xml
 ```
 
 ## Your Task
-Refactor this application to follow best practices and implement design patterns where appropriate.
+Refactor this application to follow best practices and implement design patterns where appropriate don't care about validations just throw if needed.
 
 > Note: Use explicit names for each design pattern.
 
@@ -74,7 +74,7 @@ Refactor this application to follow best practices and implement design patterns
 - Create `TestReportFacade` to simplify the API
 - Hide complexity of parsing and report generation
 
-## Expected Structure After Refactoring
+## Expected Structure After Refactoring (suggestion)
 
 ```
 TestReportGenerator/
