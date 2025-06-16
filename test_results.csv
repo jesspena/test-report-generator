@@ -1,0 +1,16 @@
+TestName,Status,Duration,Category,Priority
+Login_Valid_Credentials,PASSED,1.2,Authentication,High
+Login_Invalid_Password,PASSED,0.8,Authentication,High
+Login_Empty_Fields,FAILED,0.5,Authentication,High
+Search_By_Name,FAILED,3.5,Search,Medium
+Search_By_ID,PASSED,2.1,Search,Medium
+Search_By_Category,PASSED,1.8,Search,Low
+Checkout_Process,FAILED,5.2,E2E,Critical
+Add_To_Cart,PASSED,1.5,Shopping,High
+Remove_From_Cart,PASSED,1.3,Shopping,Medium
+Update_Quantity,FAILED,2.1,Shopping,Medium
+User_Registration,PASSED,3.2,Authentication,Critical
+Password_Reset,PASSED,2.5,Authentication,High
+Product_Filter,PASSED,1.9,Search,Low
+Payment_Processing,FAILED,4.5,E2E,Critical
+Order_Confirmation,PASSED,2.3,E2E,Critical

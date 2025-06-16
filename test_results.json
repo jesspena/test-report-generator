@@ -1,0 +1,117 @@
+{
+  "testSuite": "Regression Test Suite",
+  "executionDate": "2024-01-15",
+  "environment": "QA",
+  "tests": [
+    {
+      "testName": "Login_Valid_Credentials",
+      "status": "PASSED",
+      "duration": 1.2,
+      "category": "Authentication",
+      "priority": "High"
+    },
+    {
+      "testName": "Login_Invalid_Password",
+      "status": "PASSED",
+      "duration": 0.8,
+      "category": "Authentication",
+      "priority": "High"
+    },
+    {
+      "testName": "Login_Empty_Fields",
+      "status": "FAILED",
+      "duration": 0.5,
+      "category": "Authentication",
+      "priority": "High",
+      "errorMessage": "Validation error: Username and password required"
+    },
+    {
+      "testName": "Search_By_Name",
+      "status": "FAILED",
+      "duration": 3.5,
+      "category": "Search",
+      "priority": "Medium",
+      "errorMessage": "Element not found: search_results_container"
+    },
+    {
+      "testName": "Search_By_ID",
+      "status": "PASSED",
+      "duration": 2.1,
+      "category": "Search",
+      "priority": "Medium"
+    },
+    {
+      "testName": "Search_By_Category",
+      "status": "PASSED",
+      "duration": 1.8,
+      "category": "Search",
+      "priority": "Low"
+    },
+    {
+      "testName": "Checkout_Process",
+      "status": "FAILED",
+      "duration": 5.2,
+      "category": "E2E",
+      "priority": "Critical",
+      "errorMessage": "Timeout waiting for payment gateway response"
+    },
+    {
+      "testName": "Add_To_Cart",
+      "status": "PASSED",
+      "duration": 1.5,
+      "category": "Shopping",
+      "priority": "High"
+    },
+    {
+      "testName": "Remove_From_Cart",
+      "status": "PASSED",
+      "duration": 1.3,
+      "category": "Shopping",
+      "priority": "Medium"
+    },
+    {
+      "testName": "Update_Quantity",
+      "status": "FAILED",
+      "duration": 2.1,
+      "category": "Shopping",
+      "priority": "Medium",
+      "errorMessage": "Quantity update failed: Invalid quantity value"
+    },
+    {
+      "testName": "User_Registration",
+      "status": "PASSED",
+      "duration": 3.2,
+      "category": "Authentication",
+      "priority": "Critical"
+    },
+    {
+      "testName": "Password_Reset",
+      "status": "PASSED",
+      "duration": 2.5,
+      "category": "Authentication",
+      "priority": "High"
+    },
+    {
+      "testName": "Product_Filter",
+      "status": "PASSED",
+      "duration": 1.9,
+      "category": "Search",
+      "priority": "Low"
+    },
+    {
+      "testName": "Payment_Processing",
+      "status": "FAILED",
+      "duration": 4.5,
+      "category": "E2E",
+      "priority": "Critical",
+      "errorMessage": "Payment gateway returned error code 503"
+    },
+    {
+      "testName": "Order_Confirmation",
+      "status": "PASSED",
+      "duration": 2.3,
+      "category": "E2E",
+      "priority": "Critical"
+    }
+  ]
+}
